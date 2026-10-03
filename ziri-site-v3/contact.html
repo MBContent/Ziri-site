@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Contact & Book — Ziri Indoor Play Dubai</title>
+<meta name="description" content="Book a session, party or membership at Ziri indoor foam play, Dubai. Open daily 9am–9pm."/>
+<link rel="icon" type="image/png" href="assets/icon.png"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="nav-brand" href="index.html" aria-label="Ziri — Home">
+      <img data-asset="logo" alt="Ziri Indoor Play" style="height:52px"/>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="parties.html">Parties</a></li>
+      <li><a href="pricing.html">Pricing</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="ar/index.html" style="font-weight:800;color:var(--red)">عربي</a></li>
+    </ul>
+    <div class="nav-actions nav-desktop-only">
+      <a class="nav-wa" href="https://wa.me/971XXXXXXXXX" target="_blank" rel="noopener" aria-label="WhatsApp">💬</a>
+      <a class="btn btn-red" href="contact.html#book">Book Now</a>
+    </div>
+  </div>
+</nav>
+
+<div class="page-hero">
+  <div class="wrap">
+    <span class="label">Get in Touch</span>
+    <h1>Book a session<br>or ask us anything</h1>
+    <p>We reply same day. You can also reach us instantly on WhatsApp.</p>
+  </div>
+</div>
+
+<section class="section" id="book">
+  <div class="wrap">
+    <div class="booking-wrap">
+      <div>
+        <div class="booking-form reveal">
+          <h2 style="font-size:1.5rem;margin-bottom:1.5rem">Send a message</h2>
+          <form id="main-form">
+            <div class="field-row">
+              <div class="field">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="fname" required placeholder="Sara"/>
+              </div>
+              <div class="field">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lname" placeholder="Al Mansoori"/>
+              </div>
+            </div>
+            <div class="field">
+              <label for="email">Email or WhatsApp number</label>
+              <input type="text" id="email" name="email" required placeholder="sara@email.com or +971 50..."/>
+            </div>
+            <div class="field">
+              <label for="reason">What's this about?</label>
+              <select id="reason" name="reason">
+                <option>Booking a session</option>
+                <option>Birthday party enquiry</option>
+                <option>Membership information</option>
+                <option>General question</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="date">Preferred date (optional)</label>
+              <input type="date" id="date" name="date"/>
+            </div>
+            <div class="field">
+              <label for="msg">Message</label>
+              <textarea id="msg" name="msg" placeholder="Tell us a bit about what you're looking for…"></textarea>
+            </div>
+            <button type="submit" class="btn btn-red" style="width:100%;justify-content:center">Send Message →</button>
+            <div id="form-msg" style="display:none;margin-top:1rem;padding:1rem;background:var(--green-soft);color:var(--green-deep);border-radius:var(--r-md);font-weight:700">
+              ✅ Message sent! We'll get back to you shortly.
+            </div>
+          </form>
+          <p style="font-size:.82rem;color:var(--muted);margin-top:1rem;text-align:center">
+            Prefer to chat? <a href="https://wa.me/971XXXXXXXXX" target="_blank" style="color:var(--green);font-weight:700">Message us on WhatsApp</a>
+          </p>
+        </div>
+      </div>
+
+      <div>
+        <div class="card reveal" style="margin-bottom:1.5rem">
+          <h3 style="margin-bottom:1.2rem">Visit info</h3>
+          <ul class="info-list" style="list-style:none;padding:0;margin:0">
+            <li style="display:flex;gap:.9rem;padding:.9rem 0;border-bottom:1px solid var(--border)">
+              <span style="font-size:1.3rem">📍</span>
+              <div><strong style="display:block;font-weight:800;font-size:.95rem">Location</strong><span style="color:var(--muted);font-size:.9rem">Dubai, UAE — address coming soon</span></div>
+            </li>
+            <li style="display:flex;gap:.9rem;padding:.9rem 0;border-bottom:1px solid var(--border)">
+              <span style="font-size:1.3rem">🕐</span>
+              <div><strong style="display:block;font-weight:800;font-size:.95rem">Opening Hours</strong><span style="color:var(--muted);font-size:.9rem">Daily, 9am – 9pm</span></div>
+            </li>
+            <li style="display:flex;gap:.9rem;padding:.9rem 0;border-bottom:1px solid var(--border)">
+              <span style="font-size:1.3rem">📞</span>
+              <div><strong style="display:block;font-weight:800;font-size:.95rem">Phone</strong><a href="tel:+971XXXXXXXXX" style="color:var(--muted);font-size:.9rem">+971 X XXX XXXX</a></div>
+            </li>
+            <li style="display:flex;gap:.9rem;padding:.9rem 0;border-bottom:1px solid var(--border)">
+              <span style="font-size:1.3rem">💬</span>
+              <div><strong style="display:block;font-weight:800;font-size:.95rem">WhatsApp</strong><a href="https://wa.me/971XXXXXXXXX" target="_blank" style="color:var(--green);font-size:.9rem;font-weight:700">Chat with us</a></div>
+            </li>
+            <li style="display:flex;gap:.9rem;padding:.9rem 0">
+              <span style="font-size:1.3rem">✉️</span>
+              <div><strong style="display:block;font-weight:800;font-size:.95rem">Email</strong><a href="mailto:hello@ziriplay.ae" style="color:var(--muted);font-size:.9rem">hello@ziriplay.ae</a></div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="card reveal" style="background:var(--dark);border-color:var(--dark)">
+          <p style="color:rgba(255,255,255,.7);font-size:.95rem;margin-bottom:1rem">Want the fastest reply? Send us a WhatsApp — we respond within minutes.</p>
+          <a class="btn" style="background:#25D366;color:white;width:100%;justify-content:center;font-size:1rem" href="https://wa.me/971XXXXXXXXX?text=Hi%20Ziri!%20I'd%20like%20to%20enquire%20about%20a%20session" target="_blank">💬 Open WhatsApp</a>
+        </div>
+
+        <div class="card reveal" style="margin-top:1.5rem;padding:0;overflow:hidden;border:none">
+          <iframe
+            src="https://www.google.com/maps?q=Dubai,UAE&output=embed"
+            style="width:100%;height:260px;border:0;display:block;border-radius:var(--r-xl)"
+            loading="lazy" title="Ziri location — Dubai, UAE"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img data-asset="logo" alt="Ziri Indoor Play"/>
+        <p>Dubai's most exciting indoor foam playground — where little paws run wild, every single day.</p>
+        <div class="social-links" style="margin-top:1.2rem">
+          <a href="#" aria-label="Instagram">📸</a>
+          <a href="#" aria-label="TikTok">🎵</a>
+          <a href="#" aria-label="Facebook">👍</a>
+          <a href="#" aria-label="YouTube">▶️</a>
+        </div>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="parties.html">Parties & Events</a></li>
+          <li><a href="pricing.html">Pricing & Memberships</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="ar/index.html">العربية</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Visit</h4>
+        <ul>
+          <li>📍 Dubai, UAE</li>
+          <li>🕐 Daily 9am – 9pm</li>
+          <li><a href="tel:+971XXXXXXXXX">📞 +971 X XXX XXXX</a></li>
+          <li><a href="mailto:hello@ziriplay.ae">✉️ hello@ziriplay.ae</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">Refund Policy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Ziri Indoor Play LLC. All rights reserved.</p>
+      <p>Made with ❤️ in Dubai</p>
+    </div>
+  </div>
+</footer>
+<a class="wa-float" href="https://wa.me/971XXXXXXXXX?text=Hi%20Ziri!%20I'd%20like%20to%20book%20a%20session"
+   target="_blank" rel="noopener" aria-label="Chat on WhatsApp">💬</a>
+<script src="assets.js"></script><script src="main.js"></script>
+</body></html>
